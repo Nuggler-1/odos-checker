@@ -162,9 +162,9 @@ cython_debug/
 #.idea/
 
 # Ignore files with exceptions
-#*.txt
-#user_data/
-#!requirements.txt
+*.txt
+user_data/
+!requirements.txt
 
 # Ignore specific file
 test.py
