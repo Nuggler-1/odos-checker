@@ -8,7 +8,6 @@ import json
 import questionary
 from loguru import logger
 import sys
-from config import DELAY_ACCOUNTS
 
 logger.remove()
 logger.add(
