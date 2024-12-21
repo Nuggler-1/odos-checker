@@ -40,7 +40,7 @@ class Checker():
             raise Exception(f'Error getting amount: {response.status_code}')
         
         amount = decimalToInt(
-            int(response.json()['data']['pendingTokenBalance']),
+            int(response.json()['data']['claimableTokenBalance']),
             18
         )
         logger.info(f'{self.address}: {amount}')
